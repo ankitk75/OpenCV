@@ -1,12 +1,12 @@
 import cv2 as cv
 
-# img = cv.imread('/Users/ankitkumar/Desktop/College Stuff/3rd Year/OpenCV/evening.JPG')
+# img = cv.imread('evening.JPG')
 
 # cv.imshow('Evening', img)
 
 # Reading videos
 
-capture = cv.VideoCapture('/Users/ankitkumar/Desktop/College Stuff/3rd Year/OpenCV/pexels_video.mp4')
+capture = cv.VideoCapture('pexels_video.mp4')
 
 while True:
     isTrue, frame = capture.read()
